@@ -8,7 +8,7 @@ This document explains the **data preprocessing and transformation steps** perfo
 
 ## 2. Tools Used
 
-* **Sharepoint - Power BI Desktop – Power Query Editor**
+* **Sharepoint(Database) - Power BI Desktop – Power Query Editor**
 
 ---
 
@@ -17,8 +17,8 @@ This document explains the **data preprocessing and transformation steps** perfo
 During initial data assessment, the following issues were observed across datasets:
 
 * Incorrect or inconsistent **data types** (dates, numbers stored as text)
-* **Blank or null values** in key fields (Customer Name, Pump Status)
-* **Duplicate records** across time periods
+* **Blank or null values** in key fields (Customer Name, Pump Status, Sales Person, )
+* **Duplicate records** across fields like (Customer Name, time periods)
 * Inconsistent **naming conventions** for customers and service personnel
 * Date format mismatches impacting time intelligence
 
@@ -47,7 +47,7 @@ During initial data assessment, the following issues were observed across datase
 
 ### 4.3 Handling Missing & Blank Values
 
-* Replaced irrelevant blanks with **"Unknown"** where appropriate
+* Replaced irrelevant blanks with **"Unknown"** where appropriate also added values by collaboration with sales Person
 * Retained critical blanks for business validation
 * Filtered out records missing mandatory identifiers (e.g., Pump ID)
 
@@ -80,9 +80,16 @@ During initial data assessment, the following issues were observed across datase
   * Operational
   * Inactive
   * Lost
+  * Stand By
 
 **Outcome:** Ensured consistent classification across visuals and measures.
 
+### 4.7 Added new Columns 
+
+* Remarks
+* Lost - Year
+* Replicator
+* Field Service Person
 ---
 
 ## 5. Error Handling & Validation
@@ -110,9 +117,6 @@ The output of this phase is a set of **clean, standardized, and validated tables
 ## 8. Dependencies
 
 * Relies on accurate source data from business systems
+* Relies on accurate data to be added by sales person collected from field manually 
 * Feeds directly into **Data Modeling (05_Data_Modeling.md)**
-
----
-
-*Next Document: `05_Data_Modeling.md`*
 
