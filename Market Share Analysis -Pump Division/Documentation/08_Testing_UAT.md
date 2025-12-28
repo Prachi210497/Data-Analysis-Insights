@@ -1,4 +1,4 @@
-# 08_Testing_UAT.md
+# 08_Testing_UAT
 
 ## 1. Objective
 
