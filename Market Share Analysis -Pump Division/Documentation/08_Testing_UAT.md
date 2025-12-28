@@ -1,5 +1,4 @@
-
-# 📄 08_Testing_UAT.md
+# 08_Testing_UAT.md
 
 ## 1. Objective
 
@@ -60,7 +59,7 @@ Testing was performed across the following areas:
 
 User Acceptance Testing was conducted with **business stakeholders**, including:
 
-* Sales leadership
+* Sales leadership 
 * Commercial operations
 * Regional managers
 
@@ -100,21 +99,5 @@ Testing and UAT ensured that the dashboards were:
 * Aligned with business requirements
 * Secure and performance-optimized
 * Ready for operational use
-
----
-
-📌 **Next:** `09_Training_Support.md`
-
----
-
-### ⭐ Why this is recruiter-ready
-
-✔ Shows ownership beyond development
-✔ Demonstrates stakeholder interaction
-✔ Reflects real enterprise UAT cycles
-✔ Builds trust in delivery quality
-
-Next we’ll cover **Training & Support**.
-
 Just say 👉 **“Next: Training & Support”**
 
