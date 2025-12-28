@@ -1,3 +1,5 @@
+# 05. Data Modeling
+
 ## 1. Objective
 
 The objective of data modeling was to **design a structured, scalable, and performance-optimized data model** that supports accurate market share calculations, trend analysis, and executive reporting.
