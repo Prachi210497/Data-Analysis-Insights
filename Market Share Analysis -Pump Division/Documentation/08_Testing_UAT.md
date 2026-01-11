@@ -99,5 +99,4 @@ Testing and UAT ensured that the dashboards were:
 * Aligned with business requirements
 * Secure and performance-optimized
 * Ready for operational use
-Just say 👉 **“Next: Training & Support”**
 
